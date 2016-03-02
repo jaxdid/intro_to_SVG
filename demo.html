@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+    <title>SVG Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <!-- Feel free to extract the following <svg> tag to another document (e.g., an ERB partial), but be sure to link to/include it before drawing any SVG later -->
+    <svg style="position: absolute; width: 0; height: 0;" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+            <!-- EXAMPLE SYMBOL DEFINITION -->
+            <symbol id="icon-upload" viewBox="0 0 1024 1024">
+                <title>upload</title>
+                <path class="path1" d="M448 576h128v-256h192l-256-256-256 256h192zM640 432v98.712l293.066 109.288-421.066 157.018-421.066-157.018 293.066-109.288v-98.712l-384 144v256l512 192 512-192v-256z"></path>
+            </symbol>
+
+            <!-- ADD ADDITIONAL SYMBOL DEFINITIONS HERE -->
+        
+        </defs>
+    </svg>
+    
+    <!-- Use an <svg> tag with a <use> tag inside to add an SVG image to the page -->
+    <svg>
+        <use xlink:href="#icon-upload"></use>
+    </svg>
+
+    <!-- To add more SVG, simply repeat the above -->
+    <!-- <svg><use xlink:href="#icon-some-image"></use></svg> -->
+    
+    <!-- Use CSS to add scalability, color and other customizations to your SVG -->
+
+    <footer>
+        <h5>Images and template code borrowed from <a href="http://icomoon.io">IcoMoon</a>!</h5>
+
+        <!-- Make sure to include the following JS file or the browser won't know how to render your SVG! -->
+        <script src="javascripts/svgxuse.js"></script>
+    </footer>
+</body>
+</html>
