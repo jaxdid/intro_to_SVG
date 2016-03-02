@@ -23,4 +23,5 @@ In a sentence, SVG allows you to add sharp, resolution-independent images (icons
 8. Open `demo.html` in your browser and view your SVG!
 
 ##Other Ideas on How to Use SVG
+- http://tympanus.net/codrops/2015/09/15/styling-customizing-file-inputs-smart-way/
 - http://www.creativebloq.com/search?term=svg
